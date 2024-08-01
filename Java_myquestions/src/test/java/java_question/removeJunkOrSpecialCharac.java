@@ -1,5 +1,7 @@
 package java_question;
 
+//Question: How can you remove junk or special characters from a string in Java?
+
 public class removeJunkOrSpecialCharac {
 
 	public static void main(String[] args) {
@@ -11,5 +13,5 @@ public class removeJunkOrSpecialCharac {
         System.out.println("Cleaned string: " + cleaned);
 
 	}
-
+//Code Link: https://www.programiz.com/online-compiler/2I9hBkQCNbZGi
 }
