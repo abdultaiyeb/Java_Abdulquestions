@@ -24,7 +24,7 @@ public class findMissingNumber {
         System.out.println(sum1); // Output the sum of the first 10 natural numbers (should be 55)
 
         // Find and print the missing number
-        System.out.println("missing number is:::" + (sum1 - sum)); // Calculate and output the missing number (55 - 50 = 5)
+        System.out.println("missing number is : " + (sum1 - sum)); // Calculate and output the missing number (55 - 50 = 5)
 
 	}
 
