@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class HandleMultipleWindows {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 WebDriver driver = new ChromeDriver();
         
         // Implicit wait
@@ -22,11 +22,14 @@ WebDriver driver = new ChromeDriver();
         // Click the link that opens a new window
         driver.findElement(By.xpath("//a[normalize-space()='OrangeHRM, Inc']")).click();
 
+        // Get the current window handle
+        String mainWindowHandle = driver.getWindowHandle();
+        
         // Get all window handles
-        Set<String> windowIDs = driver.getWindowHandles();
+        Set<String> windowHandles = driver.getWindowHandles();
 
         // Switch to the new window
-        for (String winid : windowIDs) {
+        for (String winid : windowHandles) {
             String title = driver.switchTo().window(winid).getTitle();
             // Print the title of the new window
             System.out.println(title);
@@ -36,7 +39,10 @@ WebDriver driver = new ChromeDriver();
                 driver.close();
             }
         }
+       // Switch back to the main window
+        driver.switchTo().window(mainWindowHandle);
         
+        Thread.sleep(3000);
         // Close the main window
         driver.quit();
 
