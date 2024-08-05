@@ -24,16 +24,15 @@ public class handlingCheckBoxes {
            driver.manage().window().maximize();
 
         // Find all checkbox elements with the specified class and type
-           List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@class='form-check-input' and @type='checkbox']"));
+          List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@class='form-check-input' and @type='checkbox']"));
 
          // Loop through the checkboxes and click those with odd indices
             for (int i = 0; i < checkboxes.size(); i++) {
          // Check if the index (0-based) is odd by using the modulo operation
                 if ((i + 1) % 2 == 1) {// Adding 1 to make it 1-based index
                     WebElement checkbox = checkboxes.get(i);
-                    if (!checkbox.isSelected()) {
-                        checkbox.click();
-                    }
+                     checkbox.click();
+                    
                 }
             }
 
