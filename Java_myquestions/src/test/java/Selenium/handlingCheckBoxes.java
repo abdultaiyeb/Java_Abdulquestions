@@ -39,6 +39,7 @@ public class handlingCheckBoxes {
             // Pause for a while to observe the results
             Thread.sleep(5000);
       
+            
             driver.quit();
        
     }
