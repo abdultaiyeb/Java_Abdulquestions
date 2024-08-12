@@ -28,5 +28,25 @@ public class SwapIntegerWithoutThirdVar {
 		        System.out.println(y);
 	
 	}
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

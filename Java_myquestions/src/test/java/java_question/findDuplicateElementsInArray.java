@@ -23,7 +23,6 @@ public class findDuplicateElementsInArray {
 		            }
 		        }
 		        
-		        
 
 		        // Method 2: Using HashSet
 		        System.out.println("Duplicates using HashSet:");
