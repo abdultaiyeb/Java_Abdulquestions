@@ -12,7 +12,12 @@
     <version>4.23.0</version>
 </dependency>
 
-</dependencies>
+  	<dependency>
+  		<groupId>PetStoreAutomation</groupId>
+  		<artifactId>PetStoreAutomation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
   
   
 </project>
