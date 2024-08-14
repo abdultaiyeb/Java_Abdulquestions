@@ -21,6 +21,8 @@ public class ArrayListDemo {
         	itemTextsList.add(itemTexts.getText());
         }
         System.out.println(itemTextsList);
+        
+        driver.quit();
 	}
 
 }
