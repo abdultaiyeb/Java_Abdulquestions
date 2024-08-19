@@ -1,14 +1,7 @@
 package Selenium;
-
-import java.io.File;
-
+// How can you automate the process of uploading a file using Selenium WebDriver in Java?
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FileUploadExample {
 
@@ -24,11 +17,8 @@ public class FileUploadExample {
 		driver.quit();
 
 		
-	}
-		
-        
-        
-	
+	}   
+        	
 	}
 		
 	
