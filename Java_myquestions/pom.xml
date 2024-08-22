@@ -11,17 +11,6 @@
     <artifactId>selenium-java</artifactId>
     <version>4.23.0</version>
 </dependency>
-
-  	<dependency>
-  		<groupId>PetStoreAutomation</groupId>
-  		<artifactId>PetStoreAutomation</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.example</groupId>
-  		<artifactId>OrangeHRMAutomation</artifactId>
-  		<version>1.0.0</version>
-  	</dependency>
   	
   	<dependency>
     <groupId>org.apache.commons</groupId>
@@ -29,6 +18,11 @@
     <version>3.12.0</version>
 </dependency>
 
+  	<dependency>
+  		<groupId>LearnSelenium</groupId>
+  		<artifactId>LearnSelenium</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
   
