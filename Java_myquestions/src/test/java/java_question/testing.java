@@ -4,18 +4,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import java.util.*;
 public class testing {
     public static void main(String[] args) {
         
+    	Set<String> names = new HashSet<>();    	
     	
-    	int n= 10;
-    	
-    	int firstnum=0, secondnum=1;
-    	
-    	for (int i=0; i<=n; i++) {
-    		
-    		
-    	}
     }
 }
