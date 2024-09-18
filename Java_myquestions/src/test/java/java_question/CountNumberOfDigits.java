@@ -4,7 +4,7 @@ package java_question;
 public class CountNumberOfDigits {
 
 	public static void main(String[] args) {
-		int num = 01230; // Example input
+		int num = 435436547; // Example input
         int count = 0;
 
         // Handle negative numbers
