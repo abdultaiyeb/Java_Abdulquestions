@@ -23,14 +23,6 @@ public class UserLoginTest {
             // Test customer-specific actions
         }
     }
-}
 
-public class UserLoginFactory {
-    @Factory
-    public Object[] factoryMethod() {
-        return new Object[] { new UserLoginTest("admin"), new UserLoginTest("seller"), 
-        		new UserLoginTest("customer") };
-        
-    }
 }
 
