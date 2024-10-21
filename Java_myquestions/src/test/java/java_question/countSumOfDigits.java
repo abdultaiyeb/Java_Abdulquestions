@@ -1,5 +1,5 @@
 package java_question;
-
+// Write a Java program that calculates the sum of the digits of a given integer. 
 public class countSumOfDigits {
     public static void main(String[] args) {
         int num = 1234567; // Example input number

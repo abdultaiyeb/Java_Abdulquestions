@@ -1,7 +1,7 @@
 package java_question;
 
 import java.util.Scanner;
-
+// How would you write a Java program that accepts a number from the user and counts the number of even and odd digits in the given number?
 public class DigitCounter {
 
     public static void main(String[] args) {

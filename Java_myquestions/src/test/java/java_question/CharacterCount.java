@@ -3,7 +3,6 @@ package java_question;
 import java.util.HashMap;
 import java.util.Map;
 
-// How To Count Occurrences Of Each Character In String In Java
 public class CharacterCount {
     public static void main(String[] args) {
         

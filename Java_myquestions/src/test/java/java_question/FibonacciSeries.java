@@ -1,5 +1,5 @@
 package java_question;
-
+// Write a Java program to generate the first n terms of the Fibonacci series
 public class FibonacciSeries {
     public static void main(String[] args) {
     	  int n = 10; // Number of terms to be generated in the series

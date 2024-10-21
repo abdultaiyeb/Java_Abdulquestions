@@ -5,7 +5,7 @@ package java_question;
 public class reverseString {
 
 	public static void main(String[] args) {
-		String original = "linkedin";
+		String original = "Likedln";
         String reversed = "";
         
         // Loop through the original string from the end to the beginning
