@@ -12,23 +12,28 @@ public class checkmarkodddays {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://testautomationpractice.blogspot.com/");
-        List<WebElement> checkboxes = driver.findElements(By.xpath("//div[contains(@class, 'form-check')]/input[@type='checkbox']"));
-        
-        System.out.println("Total checkboxes found: " + checkboxes.size());
 
-        // Iterate over each checkbox and click the ones for odd days
+        // Locate all checkboxes
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
+
+        // Iterate through the checkboxes and select the odd-numbered ones
         for (int i = 0; i < checkboxes.size(); i++) {
-            if ((i + 1) % 2 != 0) { // Checking if the index (1-based) is odd
-                if (!checkboxes.get(i).isSelected()) { // Click only if not already selected
-                    checkboxes.get(i).click();
+            // Check if the index is odd (1-based indexing)
+            if ((i + 1) % 2 != 0) {
+                WebElement checkbox = checkboxes.get(i);
+                if (!checkbox.isSelected()) {
+                    checkbox.click(); // Select the checkbox if not already selected
                 }
             }
         }
-        
-        // Pause to observe the result
-        Thread.sleep(5000);
-        
-        driver.quit();
-	}
 
-	}
+        // Validation (optional): Print the status of each checkbox
+        for (int i = 0; i < checkboxes.size(); i++) {
+            System.out.println("Checkbox " + (i + 1) + " selected: " + checkboxes.get(i).isSelected());
+        }
+   
+        driver.quit();
+        
+    }
+}
+	

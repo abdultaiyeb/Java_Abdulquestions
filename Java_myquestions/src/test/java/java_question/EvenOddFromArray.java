@@ -2,7 +2,7 @@ package java_question;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Write a Java program that takes an array of integers and separates the even and odd numbers into two different lists.
 public class EvenOddFromArray {
     public static void main(String[] args) {
         // Example array

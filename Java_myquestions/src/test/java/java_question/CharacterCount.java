@@ -1,5 +1,5 @@
 package java_question;
-
+// Write a Java progra to count the frequency of each character in a given string and prints the results. 
 import java.util.HashMap;
 import java.util.Map;
 
